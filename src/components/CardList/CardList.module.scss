@@ -1,0 +1,10 @@
+.cardListWrapper {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url("../../static/weather.jpg");
+    background-size: cover;
+}

@@ -1,0 +1,33 @@
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 350px;
+  width: 260px;
+  border-radius: 10px;
+  color: #1b1b1b;
+  padding: 20px;
+  background-color: #f1e7d3;
+  transition: 0.5s;
+    p {
+        font-size: 15px;
+    }
+
+  &:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .cityName {
+    border-top: 1px solid black;
+    width: 100%;
+        p {
+        font-size: 25px;
+        margin: 5px;
+        }
+  }
+}
