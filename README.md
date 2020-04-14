@@ -1,4 +1,7 @@
 # Weather-API
+
+* This app was built in React.js using routing to navigate and an API to collect data about the weather in 3 different cities. Currently, only the first part of the challenge is built, 2nd and 3rd part comming soon. Please have a look in the instructions below.
+
 ### Time limit:
 
 You have 5 hours
