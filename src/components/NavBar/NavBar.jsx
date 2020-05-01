@@ -8,6 +8,8 @@ export default class NavBar extends Component {
             <nav className={styles.navBarWrapper}>
                 <ul className={styles.navList}>
                     <NavItem route="cards" name="Cards" />
+                    <NavItem route="quiz" name="Quiz" />
+                    <NavItem route="football" name="Football Team" />
                 </ul>
             </nav>
         );
